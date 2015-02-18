@@ -1,4 +1,4 @@
-# [Kata Seeds](http://kata-seeds.github.io): [Elixir](https://www.elixir-lang.org)
+# [Kata Seeds](http://kata-seeds.github.io): [Elixir](http://www.elixir-lang.org)
 [![Build Status](https://travis-ci.org/kata-seeds/elixir-seed.svg?branch=master)](https://travis-ci.org/kata-seeds/elixir-seed)
 
 ## Getting Started
