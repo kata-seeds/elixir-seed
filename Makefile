@@ -4,6 +4,6 @@ test:
 	@ cd seed && mix test
 
 dependencies:
-	which elixir
+	@ which -s elixir
 
 .PHONY: all dependencies test
