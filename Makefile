@@ -1,9 +1,9 @@
 all: dependencies test
 
 test:
-	@ mix test
+	mix test
 
 dependencies:
-	@ which -s elixir
+	which elixir mix
 
 .PHONY: all dependencies test
