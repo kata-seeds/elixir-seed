@@ -1,7 +1,7 @@
-defmodule SeedTest do
+defmodule KataTest do
   use ExUnit.Case
 
-  import Seed
+  import Kata
 
   test "Can say hello to someone!" do
     assert greet("sir") == "Hello sir!"
