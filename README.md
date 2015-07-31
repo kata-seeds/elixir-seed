@@ -8,7 +8,11 @@ Clone this repo with `git`:
     git clone https://github.com/kata-seeds/elixir-seed.git
     cd elixir-seed
 
-Install dependencies and run your tests with `make`:
+Install dependencies with `brew`:
+
+    brew install elixir
+
+and run your tests with `make`:
 
     make
 
