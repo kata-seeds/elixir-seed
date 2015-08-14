@@ -4,6 +4,6 @@ defmodule KataTest do
   import Kata
 
   test "Can say hello to someone!" do
-    assert greet("sir") == "Hello sir!"
+    assert greet("friend") == "Hello friend!"
   end
 end
