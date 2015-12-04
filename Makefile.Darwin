@@ -1,0 +1,7 @@
+dependencies.Darwin: homebrew
+	which elixir || brew install elixir
+
+homebrew:
+	which brew || ruby -e "$$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+.PHONY: dependencies.Darwin homebrew
