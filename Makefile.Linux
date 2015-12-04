@@ -1,4 +1,4 @@
-dependencies.Linux:
+dependencies:
 	@which elixir || { \
 	  cd $(shell mktemp -d) ;\
 	  wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb ;\
@@ -8,4 +8,4 @@ dependencies.Linux:
 	  sudo apt-get install -y elixir ;\
 	}
 
-.PHONY: dependencies.Linux
+.PHONY: dependencies

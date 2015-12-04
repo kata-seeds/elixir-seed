@@ -5,9 +5,6 @@ all: dependencies test
 test:
 	mix test
 
-include Makefile.Darwin
-include Makefile.Linux
+include Makefile.$(OS)
 
-dependencies: dependencies.$(OS)
-
-.PHONY: all dependencies test
+.PHONY: all test
