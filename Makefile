@@ -1,9 +1,10 @@
+OS := $(shell uname)
+
 all: dependencies test
 
 test:
 	mix test
 
-dependencies:
-	which elixir mix
+include Makefile.$(OS)
 
-.PHONY: all dependencies test
+.PHONY: all test
